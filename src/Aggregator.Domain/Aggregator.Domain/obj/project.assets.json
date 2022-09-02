@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator-meetings\\aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
       "projectName": "Aggregator.Domain",
-      "projectPath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
+      "projectPath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator-meetings\\aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
       "packagesPath": "C:\\Users\\radkl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\obj\\",
+      "outputPath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator-meetings\\aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

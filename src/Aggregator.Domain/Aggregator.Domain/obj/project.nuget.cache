@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Af3Caexk953iTnPaS9FydGluJwAik0indHmiIvO1Ye/gsGFsaIMnadusOueh++IPyfqUrALGyCx/6dyY4Sc13Q==",
+  "dgSpecHash": "ZsrhbFSDPcJB+cG4DGcae23+9G5km+Uf2q3C+OFobIgT1GMqjJlcpcckt0a+3h2RdZfyLkIYK5JAGf9w63JuEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
+  "projectFilePath": "C:\\Users\\radkl\\source\\repos\\ProgrammingInstituteRepo\\Aggregator-meetings\\aggregator\\src\\Aggregator.Domain\\Aggregator.Domain\\Aggregator.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
