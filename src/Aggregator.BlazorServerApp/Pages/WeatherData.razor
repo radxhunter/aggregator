@@ -1,0 +1,60 @@
+﻿@page "/weather"
+
+@inject IOpenWeatherMapService _weatherService
+
+<h3>WeatherData</h3>
+<h2>@location</h2>
+
+@if (string.IsNullOrWhiteSpace(errorString) == false)
+{
+    <div class="h2">@errorString</div>
+}
+else if (forecast is null)
+{
+    <div class="h4">Loading...</div>
+
+}
+else
+{
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Date</th>
+                <th>Temperature</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@DateTime.FromFileTime(forecast.dt)</td>
+                <td>@forecast.main.temp</td>
+                <td>@forecast.weather.FirstOrDefault().description</td>
+            </tr>
+
+        </tbody>
+    </table>
+}
+
+@code {
+    OpenWeatherMap forecast;
+    string errorString;
+
+    string location = "Rybnik";
+    const string appId = "573dd4138f1d88a18eed7937eb968052";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            forecast = await _weatherService.Retrieve(location, appId);
+            if (forecast.cod == 401)
+            {
+                throw new Exception();
+            }
+        }
+        catch (Exception ex)
+        {
+            errorString = $"There was an error getting http forecast.";
+        }
+    }
+}
